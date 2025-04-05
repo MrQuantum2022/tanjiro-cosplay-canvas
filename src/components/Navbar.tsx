@@ -40,7 +40,6 @@ const Navbar = () => {
           <a href="#about" className="text-white hover:text-tanjiro-primary transition-colors">About</a>
           <a href="#gallery" className="text-white hover:text-tanjiro-primary transition-colors">Gallery</a>
           <a href="#events" className="text-white hover:text-tanjiro-primary transition-colors">Events</a>
-          <a href="#contact" className="text-white hover:text-tanjiro-primary transition-colors">Contact</a>
           <a 
             href="https://instagram.com/digitally__artistic_" 
             target="_blank" 
