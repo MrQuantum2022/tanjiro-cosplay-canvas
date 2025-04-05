@@ -1,3 +1,4 @@
+
 # Welcome to your Lovable project
 
 ## Project info
@@ -36,6 +37,17 @@ npm i
 npm run dev
 ```
 
+## Deploying to GitHub Pages
+
+This project is configured for automatic deployment to GitHub Pages. To deploy:
+
+1. Create a new GitHub repository
+2. Push this code to your repository
+3. Go to your repository settings > Pages
+4. Ensure that GitHub Pages is set to deploy from GitHub Actions
+
+The GitHub Actions workflow will automatically build and deploy the site when you push to the main branch.
+
 **Edit a file directly in GitHub**
 
 - Navigate to the desired file(s).
@@ -59,10 +71,6 @@ This project is built with:
 - React
 - shadcn-ui
 - Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/40b13224-74b9-4540-9584-8c26b1a4cb43) and click on Share -> Publish.
 
 ## Can I connect a custom domain to my Lovable project?
 
