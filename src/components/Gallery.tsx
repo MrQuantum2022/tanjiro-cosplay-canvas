@@ -12,28 +12,28 @@ const Gallery = () => {
 
   const images: ImageData[] = [
     {
-      src: "/public/lovable-uploads/75dc422c-3b72-45c2-8db0-e845b9b23926.png",
+      src: "./lovable-uploads/75dc422c-3b72-45c2-8db0-e845b9b23926.png",
       alt: "Tanjiro with water effects",
       featured: true,
     },
     {
-      src: "/public/lovable-uploads/ef3f0d1b-f1bf-4547-8114-bf1125f2d4fe.png",
+      src: "./lovable-uploads/ef3f0d1b-f1bf-4547-8114-bf1125f2d4fe.png",
       alt: "Tanjiro full costume view"
     },
     {
-      src: "/public/lovable-uploads/842580cf-4ee0-4d3e-adee-1e094fb4e786.png",
+      src: "./lovable-uploads/842580cf-4ee0-4d3e-adee-1e094fb4e786.png",
       alt: "Tanjiro performing"
     },
     {
-      src: "/public/lovable-uploads/e3235dd9-fef5-46d8-9d5e-faf3b246e3f6.png",
+      src: "./lovable-uploads/e3235dd9-fef5-46d8-9d5e-faf3b246e3f6.png",
       alt: "Tanjiro with other cosplayers"
     },
     {
-      src: "/public/lovable-uploads/2f6f1bb2-4146-4136-9ef6-3c47c3b0c0d4.png",
+      src: "./lovable-uploads/2f6f1bb2-4146-4136-9ef6-3c47c3b0c0d4.png",
       alt: "Tanjiro receiving award"
     },
     {
-      src: "/public/lovable-uploads/348a70a7-0369-41d4-ae4f-c7f5dcb384ba.png",
+      src: "./lovable-uploads/348a70a7-0369-41d4-ae4f-c7f5dcb384ba.png",
       alt: "Tanjiro walking on stage"
     }
   ];

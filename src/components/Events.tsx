@@ -32,21 +32,21 @@ const Events = () => {
       title: "Engifest Cosplay Competition",
       date: "February 16-17, 2024",
       location: "DTU, Delhi",
-      image: "/public/lovable-uploads/55587d8b-9942-42a7-ab58-90e32125b4dc.png",
+      image: "./lovable-uploads/55587d8b-9942-42a7-ab58-90e32125b4dc.png",
       description: "First place winner at the anime cosplay competition with the Water Breathing showcase."
     },
     {
       title: "Japanese Society Cosplay Event",
       date: "April 4, 2024",
       location: "Maitreyi College, New Delhi",
-      image: "/public/lovable-uploads/e3235dd9-fef5-46d8-9d5e-faf3b246e3f6.png",
+      image: "./lovable-uploads/e3235dd9-fef5-46d8-9d5e-faf3b246e3f6.png",
       description: "Featured performer demonstrating Tanjiro's iconic Water Breathing techniques."
     },
     {
       title: "Anime Convention",
       date: "March 25, 2024",
       location: "Chankyapuri, New Delhi",
-      image: "/public/lovable-uploads/2f6f1bb2-4146-4136-9ef6-3c47c3b0c0d4.png",
+      image: "./lovable-uploads/2f6f1bb2-4146-4136-9ef6-3c47c3b0c0d4.png",
       description: "Special guest appearance alongside other Demon Slayer cosplayers."
     }
   ];

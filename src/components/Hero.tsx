@@ -14,7 +14,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black z-0 overflow-hidden">
         <div className="absolute inset-0 opacity-40 bg-mask">
           <img
-            src="/public/lovable-uploads/05c94c98-3953-4b6c-a500-fd7817e312bb.png"
+            src="./lovable-uploads/05c94c98-3953-4b6c-a500-fd7817e312bb.png"
             alt="Tanjiro Background"
             className="w-full h-full object-cover"
           />
@@ -65,7 +65,7 @@ const Hero = () => {
             
             {/* Main image */}
             <img 
-              src="/public/lovable-uploads/a422d274-30ac-427d-8f99-51dcb93aff5f.png" 
+              src="./lovable-uploads/a422d274-30ac-427d-8f99-51dcb93aff5f.png" 
               alt="Tushar as Tanjiro" 
               className="relative z-10 max-h-[70vh] object-contain"
             />

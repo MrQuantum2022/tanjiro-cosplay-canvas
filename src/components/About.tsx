@@ -50,7 +50,7 @@ const About = () => {
             <div className="relative">
               <div className="absolute -inset-2 rounded-lg bg-gradient-to-r from-tanjiro-primary to-tanjiro-haori-teal opacity-30 blur-md"></div>
               <img 
-                src="/public/lovable-uploads/3a1c9e6f-a04e-462e-b831-79e2fee1aa86.png" 
+                src="./lovable-uploads/3a1c9e6f-a04e-462e-b831-79e2fee1aa86.png" 
                 alt="Tushar as Tanjiro" 
                 className="rounded-lg relative z-10 w-full"
               />
