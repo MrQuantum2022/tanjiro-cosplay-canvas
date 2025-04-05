@@ -14,7 +14,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black z-0 overflow-hidden">
         <div className="absolute inset-0 opacity-40 bg-mask">
           <img
-            src="/public/lovable-uploads/05c94c98-3953-4b6c-a500-fd7817e312bb.png"
+            src="/public/lovable-uploads/842580cf-4ee0-4d3e-adee-1e094fb4e786.png"
             alt="Tanjiro Background"
             className="w-full h-full object-cover"
           />
@@ -45,13 +45,8 @@ const Hero = () => {
               <a href="#gallery" className="bg-gradient-to-r from-tanjiro-primary to-tanjiro-secondary text-white px-6 py-3 rounded-lg hover:shadow-lg hover:shadow-tanjiro-primary/30 transition-all">
                 View Gallery
               </a>
-              <a 
-                href="https://instagram.com/digitally__artistic_" 
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-lg hover:border-tanjiro-primary hover:text-tanjiro-primary transition-all"
-              >
-                Instagram
+              <a href="#contact" className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-lg hover:border-tanjiro-primary hover:text-tanjiro-primary transition-all">
+                Book Now
               </a>
             </div>
           </div>
