@@ -36,7 +36,7 @@ const Hero = () => {
               <span className="text-tanjiro-primary text-5xl md:text-7xl">Tanjiro Kamado</span>
             </h1>
             <p className="text-xl mt-4 text-gray-100 max-w-lg">
-              Professional cosplayer bringing the Water Breathing demon slayer to life with stunning authenticity and craftsmanship.
+              Professional cosplayer bringing the Water Breathing demon slayer to life with stunning authenticity and craftsmanship.(THIS SITE IS UNDER DEVELOPMENT)
             </p>
           </div>
           
