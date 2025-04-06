@@ -1,23 +1,14 @@
-
 import { useState, useEffect } from "react";
-
 const Hero = () => {
   const [isLoaded, setIsLoaded] = useState(false);
-
   useEffect(() => {
     setIsLoaded(true);
   }, []);
-
-  return (
-    <section className="relative min-h-screen flex items-center overflow-hidden pt-20">
+  return <section className="relative min-h-screen flex items-center overflow-hidden pt-20">
       {/* Background */}
       <div className="absolute inset-0 bg-black z-0 overflow-hidden">
         <div className="absolute inset-0 opacity-40 bg-mask">
-          <img
-            src="./lovable-uploads/05c94c98-3953-4b6c-a500-fd7817e312bb.png"
-            alt="Tanjiro Background"
-            className="w-full h-full object-cover"
-          />
+          <img src="./lovable-uploads/05c94c98-3953-4b6c-a500-fd7817e312bb.png" alt="Tanjiro Background" className="w-full h-full object-cover" />
         </div>
       </div>
 
@@ -45,12 +36,7 @@ const Hero = () => {
               <a href="#gallery" className="bg-gradient-to-r from-tanjiro-primary to-tanjiro-secondary text-white px-6 py-3 rounded-lg hover:shadow-lg hover:shadow-tanjiro-primary/30 transition-all">
                 View Gallery
               </a>
-              <a 
-                href="https://instagram.com/digitally__artistic_" 
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-lg hover:border-tanjiro-primary hover:text-tanjiro-primary transition-all"
-              >
+              <a href="https://instagram.com/digitally__artistic_" target="_blank" rel="noopener noreferrer" className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-lg hover:border-tanjiro-primary hover:text-tanjiro-primary transition-all">
                 Instagram
               </a>
             </div>
@@ -64,16 +50,10 @@ const Hero = () => {
             <div className="absolute -inset-8 water-breathing"></div>
             
             {/* Main image */}
-            <img 
-              src="./lovable-uploads/a422d274-30ac-427d-8f99-51dcb93aff5f.png" 
-              alt="Tushar as Tanjiro" 
-              className="relative z-10 max-h-[70vh] object-contain"
-            />
+            <img alt="Tushar as Tanjiro" className="relative z-10 max-h-[70vh] object-contain" src="/lovable-uploads/eb400c5c-f8d4-47c8-acf6-efa5c103e553.jpg" />
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
